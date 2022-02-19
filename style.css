@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  background: rgba(52, 61, 65);
+  max-width: 1200px;
+  color: white;
+}
+
+.heading {
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 20px 50px;
+  margin: 40px 25px;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.form {
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+label {
+  display: inline-block;
+  font-size: 30px;
+}
+
+input {
+  display: inline-block;
+  margin-left: 50px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  float: right;
+  clear: right;
+  border-radius: 5px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: rgb(124, 114, 114);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+ul {
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.calculate-label {
+  margin: 40px 0;
+}
+
+.result-label {
+  margin: 40px 0;
+  color: rgb(161, 156, 156);
+}
+
+.result-label p {
+  font-size: 25px;
+}
+
+.reset-label {
+  margin: 40px;
+}
+
+.footer p {
+  font-size: 15px;
+}
